@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//9)
+
+		real salario
+		escreva("digite seu salário atual e vamos calcular o reajuste de 15% sobre o valor \n")
+		leia(salario)
+
+		real reajuste = salario * 1.15
+		escreva(reajuste)
+	}
+}
